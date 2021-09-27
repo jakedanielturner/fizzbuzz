@@ -61,4 +61,6 @@ const fizzOrBuzz = num => {
     }
 }
 
-console.log(fizzOrBuzz(15))
+for (i=1; i<(target+1); i++) {
+    console.log(fizzOrBuzz(i));
+}
