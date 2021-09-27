@@ -19,13 +19,21 @@ const playGame = (target) => {
         if ((i % fizz) && (i % buzz)) {
             console.log("Fizzbuzz");
         }
+        // This code block checks if the number is both a multiple of three and five
     
         if (i % fizz) {
             console.log("Fizz");
         }
+        // This code block checks if the number is just a multiple of three
     
-        else if (i % buzz) {
+        if (i % buzz) {
             console.log("Buzz");
         }
+        // This code block checks if the number is just a mutliple of five
+
+        else {
+            console.log(i);
+        }
+        // If all code blocks above have failed, then the number is not a multiple of either and is outputted to the console as is.
     }
 }
